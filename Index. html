@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Real Rause Clube</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #000;
+    }
+    .produto {
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 400px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #ccc;
+    }
+    .botao {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #00c853;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bem-vindo ao Real Rause Clube!</h1>
+  <div class="produto">
+    <h2>Produto Exemplo</h2>
+    <p>Entrega rápida e qualidade garantida.</p>
+    <p><strong>R$ 49,90</strong></p>
+    <a class="botao" href="https://picpay.me/caua.gustavo.karling/49.9" target="_blank">Comprar agora</a>
+  </div>
+</body>
+</html>
